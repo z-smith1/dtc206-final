@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Using Roboto font */
+    background-color: #f0f9f4; /* Light greenish background */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #2e8b57; /* Deep green background for the header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #2e8b57; /* Deep green for section titles */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Link colors */
+a {
+    color: #2e8b57; /* Matching green links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #228b22; /* Darker green for hover effect */
+    text-decoration: underline;
+}
+
+/* Add some spacing between sections */
+section p {
+    margin-bottom: 20px;
+}
