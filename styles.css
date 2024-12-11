@@ -43,12 +43,10 @@ section h2 {
 
 footer {
     text-align: center;
-    padding: 10px;
+    padding: 10px; /* Reduced padding for smaller footer */
     background-color: #2e8b57;
     color: white;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-top: 20px; /* Added margin to create space above footer */
 }
 
 img {
